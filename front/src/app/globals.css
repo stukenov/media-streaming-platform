@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  color: #171717;
+  background: #fff;
+}
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
+  }
+}
